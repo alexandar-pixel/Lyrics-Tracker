@@ -2,9 +2,6 @@
 
 import sys
 import os
-import time
-import itertools
-import threading
 import spotipy
 import spotipy.util as util
 import lyricsgenius
