@@ -92,7 +92,7 @@ def uzmiSliku(pesma, umetnik):
         else:
             ime = albumIme
 
-        putanja = 'G:\coding, matura etc\coding\Rest of proggraming\Python\Lyric tracker\slike'
+        #putanja = 'G:\coding, matura etc\coding\Rest of proggraming\Python\Lyric tracker\slike'
         
         dl_img(url, putanja, ime)
         
