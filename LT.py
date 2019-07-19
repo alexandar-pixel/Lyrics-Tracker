@@ -31,10 +31,10 @@ scopes = 'user-read-private user-read-playback-state user-modify-playback-state 
 
 #Brisanje kes memorije i autentacija
 try:
-    token = util.prompt_for_user_token(username,scope = scopes,client_id='8343db87971f4c538222f3599ab9245f',client_secret='716e7d50760640a28f1cd61e8340abe8',redirect_uri='http://www.google.rs/')
+    token = util.prompt_for_user_token(username,scope = scopes,client_id='8343db87971f4c538222f3599ab9245f',client_secret='716e7d50760640a28f1cd61e8340abe8',redirect_uri='http://www.google.com/')
 except:
     os.remove(f".cache-{username}")
-    token = util.prompt_for_user_token(username,scope = scopes,client_id='8343db87971f4c538222f3599ab9245f',client_secret='716e7d50760640a28f1cd61e8340abe8',redirect_uri='http://www.google.rs/')
+    token = util.prompt_for_user_token(username,scope = scopes,client_id='8343db87971f4c538222f3599ab9245f',client_secret='716e7d50760640a28f1cd61e8340abe8',redirect_uri='http://www.google.com/')
 
 #Genius API objekat
 genius = lyricsgenius.Genius("3zwyKeI25QzVoqrxVaYD8j-_JZGL6iB6yPYNPZKxpcsY7crFNhlxRiTO0SjBHf5Z")
